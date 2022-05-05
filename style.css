@@ -155,6 +155,8 @@ body{
     display: flex;
     align-items: center;
     height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
 }
 
 .movie-list-item{
@@ -179,6 +181,7 @@ body{
     width: 270px;
     height: 200px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .movie-list-item-title{
@@ -228,4 +231,39 @@ body{
     color: rgb(235, 235, 235);
     opacity: .5;
     cursor: pointer;
+}
+.container{
+    background-color: white;
+}
+
+.movie-list-title{
+    color: black;
+}
+
+.navbar{
+    background-color: white;
+    color: black;
+}
+
+.navbar-container{
+    background-color: white;
+
+    color: black;
+}
+
+.sidebar{
+    background-color: white;
+}
+
+.left-menu-icon{
+    color: black;
+}
+
+.toggle{
+    background-color: black;
+}
+
+.toggle-ball{
+    background-color: white;
+    transform: translateX(20px);
 }
