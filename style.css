@@ -75,7 +75,7 @@ body{
     position: relative;
 }
 
-.toggle-icon{
+.toggle-icon {
     color: goldenrod;
 }
 
@@ -232,38 +232,34 @@ body{
     opacity: .5;
     cursor: pointer;
 }
-.container{
+
+.container.active{
     background-color: white;
 }
 
-.movie-list-title{
+.movie-list-title.active{
     color: black;
 }
 
-.navbar{
-    background-color: white;
-    color: black;
-}
-
-.navbar-container{
+.navbar-container.active{
     background-color: white;
 
     color: black;
 }
 
-.sidebar{
+.sidebar.active{
     background-color: white;
 }
 
-.left-menu-icon{
+.left-menu-icon.active{
     color: black;
 }
 
-.toggle{
+.toggle.active{
     background-color: black;
 }
 
-.toggle-ball{
+.toggle-ball.active{
     background-color: white;
-    transform: translateX(20px);
-}
+    left: 1px;
+ }
