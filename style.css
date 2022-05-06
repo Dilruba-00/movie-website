@@ -186,40 +186,40 @@ body{
 }
 
 .movie-list-item-title{
-    background-color: #333 ;
     padding: 0 10px;
     font-size: 32px;
     font-weight: bold;
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: -5px;
+    left: 30px;
     opacity: 0;
     transition: 1s all ease-in-out;
 }
 
 .movie-list-item-desc{
-    background-color: #333 ;
+    background-color: rgba(171, 171, 171, 0.344) ;
     padding: 10px;
     font-size: 14px;
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 50px;
     width: 230px;
     opacity: 0; 
     transition: 1s all ease-in-out;
+    border-radius: 10px;
 }
 
 .movie-list-item-button{
     padding: 10px;
-    background-color: #4dbf00;
+    background-color: rgba(34, 139, 34, 0.714);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     border: no,;
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
-    left: 50px;
+    bottom: -18px;
+    left: 210px;
     opacity: 0;
     transition: 1s all ease-in-out;
 }
