@@ -27,7 +27,7 @@ body{
 
 .logo{
     font-size: 30px;
-    color: rgb(255, 127, 0);
+    color: #eab0d9;
 }
 
 .menu-container{
@@ -76,7 +76,7 @@ body{
 }
 
 .toggle-icon {
-    color: goldenrod;
+    color: #f1c6de;
 }
 
 .toogle-ball{
@@ -141,6 +141,15 @@ body{
     border: none;
     outline: none;
     font-weight: bold;
+}
+.featured-button:hover{
+    background-color: #f1c6dede;
+}
+
+.featured-button:active{
+    background-color: #feb477de;
+    box-shadow: 0 5px #f7e8f0de;
+    transform: translateY(4px);
 }
 
 .movie-list-container{
@@ -210,18 +219,33 @@ body{
 }
 
 .movie-list-item-button{
-    padding: 10px;
-    background-color: rgba(34, 139, 34, 0.714);
-    color: white;
-    border-radius: 5px;
-    outline: none;
-    border: no,;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 13px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.781);
+    background-color: rgba(255, 255, 255, 0.626);
+    border: none;
+    border-radius: 10px;
     position: absolute;
     bottom: -13px;
     left: 210px;
     opacity: 0;
-    transition: 1s all ease-in-out;
+    box-shadow: 0 5px rgba(49, 49, 49, 0.914);
+}
+
+.movie-list-item-button:hover{
+    background-color: #f1c6dede;
+}
+
+.movie-list-item-button:active{
+    background-color: #feb477de;
+    box-shadow: 0 5px #f7e8f0de;
+    transform: translateY(4px);
 }
 
 .arrow{
