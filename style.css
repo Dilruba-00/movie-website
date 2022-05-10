@@ -192,6 +192,11 @@ body{
     height: 200px;
     object-fit: cover;
     border-radius: 15px;
+    filter: grayscale(0%);
+}
+
+.movie-list-item-img:hover{
+    filter: grayscale(100%);
 }
 
 .movie-list-item-title{
@@ -203,6 +208,7 @@ body{
     left: 20px;
     opacity: 0;
     transition: 1s all ease-in-out;
+    filter: grayscale(0%);
 }
 
 .movie-list-item-desc{
