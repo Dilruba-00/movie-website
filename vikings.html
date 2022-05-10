@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vikings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">flares</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">
+                        <a style="color: white;" class="login" href="index.html">Home</a><li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Populer</li>
+                    <li class="menu-list-item">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.png" alt="" >
+                <div class="profile-text-container">
+                    <span class="profile-text">
+                        <a href="profile.html" style="color: white;" class="login" >Profile</a>
+                    </span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toogle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house-chimney"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    
+    
+    <div class="container" onclick="onclick">
+        <div class="content-container"></div>
+        <div class="featured-content"
+        style="background: linear-gradient(to bottom, rgba(0,0,0,0), rgb(28, 28, 28)  ), url('img/Vikings.jpg');">
+
+            <img class="featured-title" src="img/vikings.png.png" alt="">
+            <div class="rating"> 
+                <input type="radio" name="rating" value="5" id="5">
+                <label for="5">☆</label> 
+                <input type="radio" name="rating" value="4" id="4">
+                <label for="4">☆</label> 
+                <input type="radio" name="rating" value="3" id="3">
+                <label for="3">☆</label> 
+                <input type="radio" name="rating" value="2" id="2">
+                <label for="2">☆</label> 
+                <input type="radio" name="rating" value="1" id="1">
+                <label for="1">☆</label>
+            </div>
+            
+            <p class="featured-desc">This gritty drama charts the exploits of Viking hero Ragnar Lothbrok as he extends the Norse reach by challenging an unfit leader who lacks vision.</p>
+            
+        </div>
+
+      </div>
+    
+    </body>
+</html>
